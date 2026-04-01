@@ -1,1 +1,6 @@
-https://designliquido.github.io/delegua-web/?codigo=cGFyYSAodmFyIGEgPSAxOyBhIDw9IDM7IGEgPSBhICsgMSkgew0KICAgIA0KICAgIHBhcmEgKHZhciBiID0gMTsgYiA8PSAzOyBiID0gYiArIDEpIHsNCiAgICAgICAgICAgIGVzY3JldmEoInske2F9LCR7Yn19Iik7DQogICAgICAgIH0NCiAgICB9DQo=
+para (var a = 1; a <= 3; a = a + 1) {
+    
+    para (var b = 1; b <= 3; b = b + 1) {
+            escreva("{${a},${b}}");
+        }
+    }
