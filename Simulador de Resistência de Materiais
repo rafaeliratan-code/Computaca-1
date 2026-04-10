@@ -1,0 +1,26 @@
+var carga_aplicada: real
+var area: real
+var tempo_horas: inteiro
+var tensao: real
+
+carga_aplicada = real(leia("Digite a carga aplicada: "))
+area = real(leia("Digite a área da secção transversal: "))
+tempo_horas = inteiro(leia("Digite o tempo em horas: "))
+tensao = carga_aplicada/area
+
+
+escreva("Carga aplicada em Newtons: ${carga_aplicada}")
+escreva("Área da secção transversal: ${area}")
+escreva("Tempo em horas: ${tempo_horas}")
+escreva("Tensão sobre a viga metálica: ${tensao}")
+
+var indiceFadiga: real
+indiceFadiga = (tensao*tempo_horas)/100
+escreva("Indice de fadiga da viga metálica: ${indiceFadiga}")
+se (indiceFadiga > 80) {
+    escreva('Alerta de manutenção crítica');
+} senao se (indiceFadiga > 50) {
+    escreva('Risco de ruptura iminente');
+} senao {
+    escreva('Manutenção em dia');
+}
