@@ -1,0 +1,17 @@
+
+// Calculadora de Índice de Massa Corporal "IMC"
+
+
+var idade, peso, altura: real
+
+idade = real(leia("Digite sua idade em anos: "))
+    escreva("Idade: ${idade} anos")
+peso = real(leia("Digite seu peso em kg: "))
+    escreva("Peso: ${peso)}Kg")
+altura = real(leia("Digite sua altura em metros: "))
+    escreva("Altura: ${altura} metros")
+
+var IMC: real
+
+IMC = peso/(altura*altura)
+escreva("IMC: ${IMC}")
