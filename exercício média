@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+int A;
+int A = ("%f+%f+%f/3");
+printf("Digite três valores separados por espaço: \n");
+scanf("%f, %f, %f", &A);
+
+
+}
